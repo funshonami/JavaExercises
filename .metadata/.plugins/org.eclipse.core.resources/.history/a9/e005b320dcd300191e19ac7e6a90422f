@@ -1,0 +1,66 @@
+
+public class Account {
+	private String name;
+	private String accountType;
+	private double balance;
+	private double bvn;
+	private boolean isActive;
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getAccountType() {
+		return accountType;
+	}
+
+	public void setAccountType(String accountType) {
+		this.accountType = accountType;
+	}
+
+	public double getBalance() {
+		return balance;
+	}
+
+	public void setBalance(double balance) {
+		this.balance = balance;
+	}
+
+	public double getBvn() {
+		return bvn;
+	}
+
+	public void setBvn(double bvn) {
+		this.bvn = bvn;
+	}
+
+	public boolean isActive() {
+		return isActive;
+	}
+
+	public void setActive(boolean isActive) {
+		this.isActive = isActive;
+	}
+
+	//if the govt decides that after cakculatin deduction, if the result is less than or equal to 10,000. IGNORE DEDUCTION
+	public double credit(double amount) {
+		double finalValue = 0;
+		double deduction = 0.05 * amount;
+		double balance = amount - deduction;
+		
+		if (deduction <= 10000) {
+			finalValue = amount;
+		}
+		
+		if (deduction > 10000) {
+			finalValue = balance;
+			
+		}
+		
+		return finalValue;
+	}
+}

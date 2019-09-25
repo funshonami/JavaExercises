@@ -1,0 +1,37 @@
+
+public class Comparision {
+	private int number;
+	private int number2;
+
+	
+	public Comparision() {
+
+}
+	public Comparision(int a, int b) {
+		number=a;
+		number2=b;
+	}
+	
+	public void setNumber(int a) {
+	
+		number=a;
+		
+	}
+	
+	public int getNumber() {
+		return number;
+	}
+	
+	public void setNumber2(int b) {
+		number2=b;
+	}
+	
+	public int getNumber2() {
+		return number2;
+	}
+
+
+	
+}	
+
+

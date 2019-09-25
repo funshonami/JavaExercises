@@ -1,0 +1,16 @@
+
+public class AdditionTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Addition calc = new Addition(3,4);
+		Addition calculate = new Addition(2,4);
+		calc.add();//Calling the ADD Method
+		calculate.add();
+		int result = calc.add();
+		System.out.println(result);
+		System.out.print(calculate.add());
+
+	}
+
+}

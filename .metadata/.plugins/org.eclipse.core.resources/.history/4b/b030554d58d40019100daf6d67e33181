@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Equation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner bring =new Scanner(System.in);
+		
+		System.out.println("Enter Value for a");
+		double a = bring.nextDouble();
+		
+	}
+
+}

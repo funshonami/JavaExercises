@@ -1,0 +1,15 @@
+
+public class GasMileageTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		GasMileage bring = new GasMileage();
+		int a = bring.averageTrip();
+		
+		
+		
+		System.out.printf("Total Average trip is: %f %s", a, "miles per gallon");
+
+	}
+
+}

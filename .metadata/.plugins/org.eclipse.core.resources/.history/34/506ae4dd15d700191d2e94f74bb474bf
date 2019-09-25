@@ -1,0 +1,45 @@
+
+public class Car {
+	private String carBrand;
+	private String colour;
+	private int mileage;
+	
+	public Car(String brand, String colour, int mileage) {
+		carBrand = brand;
+		this.colour = colour;
+		this.mileage = mileage;
+		
+	}
+	
+		public void setCarBrand(String make) {
+			carBrand = make;
+		}
+		
+		public String getCarBrand() {
+			return carBrand;
+		}
+		
+		public void colour(String colour) {
+			this.colour = colour;
+		}
+		
+		public String colour() {
+			return colour;
+		}
+		
+		public void mileage(int distance) {
+			this.mileage = distance;
+		}
+		
+		public int mileage() {
+			return mileage;
+		}
+		
+		public int setDrive() {
+			int distance =  mileage;
+			return distance;
+			
+		}
+	
+
+}

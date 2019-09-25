@@ -1,0 +1,38 @@
+import java.util.Scanner;
+
+public class GasMileage {
+	int mile = 0;
+	int newMile = 0;
+	int gallon = 0;
+	int newGallon = 0;
+	int average = 0;
+	
+	
+	
+	public GasMileage() {
+
+
+}
+	public int averageTrip() {
+		Scanner input = new Scanner(System.in);
+		System.out.print("Enter Miles covered: ");
+		newMile = input.nextInt();
+		mile= newMile + mile;
+	
+		System.out.print("Enter Gallons used: ");
+		newGallon = input.nextInt();
+		gallon = newGallon + gallon;
+		
+		average = mile/gallon;
+		
+		System.out.print("Enter 1 if you have more trips");
+		 int result =input.nextInt();
+			if(result == 1) 
+				averageTrip();
+			
+		int totalAverage = mile/gallon;
+		
+		return totalAverage;
+	}
+	
+}

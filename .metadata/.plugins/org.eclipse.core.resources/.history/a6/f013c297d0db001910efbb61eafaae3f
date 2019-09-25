@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+public class GasMileage {
+	int mile = 0;
+	int newMile = 0;
+	int gallon = 0;
+	int newGallon = 0;
+	int average = 0;
+	
+	
+	
+	public GasMileage() {
+
+
+}
+	public int averageTrip() {
+		Scanner input = new Scanner(System.in);
+		System.out.print("Enter Miles covered: ");
+		newMile = input.nextInt();
+		mile= newMile;
+	
+		System.out.print("Enter Gallons used: ");
+		newGallon = input.nextInt();
+		gallon = newGallon;
+		
+		average = mile/gallon;
+		
+		return average;
+	}
+	
+}

@@ -1,0 +1,14 @@
+
+public class AccountTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Account funshoAccount = new Account();
+		Account opeAccount = new Account();
+		
+		funshoAccount.setName(funsho);
+		
+		System.out.println(my name is: %s, funsho.getname);
+	}
+
+}

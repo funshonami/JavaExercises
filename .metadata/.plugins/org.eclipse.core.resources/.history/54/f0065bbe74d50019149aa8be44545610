@@ -1,0 +1,10 @@
+
+public class InvoiceAmount {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Invoice funsho =new Invoice("AB100", "Tool Box",3, 20000000);
+
+	}
+
+}

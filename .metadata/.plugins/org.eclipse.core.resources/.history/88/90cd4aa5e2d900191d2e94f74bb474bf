@@ -1,0 +1,62 @@
+//import java.util.Scanner;
+
+public class Calculator {
+	private  int accountNumber;
+	private int balance;
+	private int charges;
+	private int creditApplied;
+	private int creditLimit;
+	private int newBalance;
+	
+	
+	public int getAccountNumber() {
+		return accountNumber;
+	}
+	public void setAccountNumber(int accountNumber) {
+		this.accountNumber = accountNumber;
+	}
+	public int getBalance() {
+		return balance;
+	}
+	public void setBalance(int balance) {
+		this.balance = balance;
+	}
+	public int getCharges() {
+		return charges;
+	}
+	public void setCharges(int charges) {
+		this.charges = charges;
+	}
+	public int getCreditApplied() {
+		return creditApplied;
+	}
+	public void setCreditApplied(int creditApplied) {
+		this.creditApplied = creditApplied;
+	}
+	public int getCreditLimit() {
+		return creditLimit;
+	}
+	public void setCreditLimit(int creditLimit) {
+		this.creditLimit = creditLimit;
+	}
+	public Calculator() {
+		int calculate = (balance + charges - creditApplied);
+	}
+	public void runCalculator() {
+
+
+		
+		
+		int calculate = (balance + charges - creditApplied);
+		System.out.printf("New Balance is: %d%n", calculate);
+		
+		if(calculate > creditLimit) {
+			System.out.println("Credit limit exceeded");
+		}
+		
+		else if (calculate <creditLimit) {
+			System.out.println("Proceed with payment");
+		}
+		
+	}	
+}

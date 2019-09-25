@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class Equation {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner bring =new Scanner(System.in);
+		
+		System.out.println("Enter Value for a");
+		double a = bring.nextDouble();
+		System.out.println("Enter Value for b");
+		double b = bring.nextDouble();		
+		System.out.println("Enter Value for c");
+		double c = bring.nextDouble();
+		
+		double calculate = ((b * b) - (4 * a * c));
+		System.out.printf("result: %f","double calculate" );
+		
+	}
+
+}

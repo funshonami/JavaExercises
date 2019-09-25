@@ -1,0 +1,40 @@
+
+public class Employee {
+	private String firstName;
+	private String lastName;
+	private double monthlyPay;
+	
+	public Employee(String name, String surname, double pay) {
+		firstName = name;
+		lastName  = surname;
+		monthlyPay = pay;
+		
+	}
+	
+	public String getFirstName() {
+		return firstName;
+	}
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+	public String getLastName() {
+		return lastName;
+	}
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+	public double getMonthlyPay() {
+		return monthlyPay;
+	}
+	public void setMonthlyPay(double monthlyPay) {
+		this.monthlyPay = monthlyPay;
+	}
+	
+	public double getEmployeeRaise() {
+		if(monthlyPay<0);
+		monthlyPay = 0;		
+	}
+	double employeeRaise = (monthlyPay *1.1);
+		return employeeRaise;
+
+}

@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class PrimeNumber {
+	private int value;
+	
+	public PrimeNumber() {
+		
+	}
+	
+	public void checkPrime() {
+		Scanner input =new Scanner(System.in);
+		System.out.print("Enter value: ");
+		value = input.nextInt();
+		for(int i = 2; i < value; i++) {
+			if (value % i==0) {
+				System.out.print("Not a prime number");
+				break;
+			}
+			else {
+				System.out.print("value is prime");
+			}
+			
+		}
+	}
+
+}

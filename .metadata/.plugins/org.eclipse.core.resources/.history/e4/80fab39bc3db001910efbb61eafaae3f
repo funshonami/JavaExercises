@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class AverageScore {
+	public double average() {
+		int counter = 0;
+		double score = 0.0;
+		double total =0.0;
+		double average =0.0;
+		int student = 0;
+		
+		Scanner input = new Scanner(System.in);
+		System.out.print("Enter number of Students: ");
+		counter = input.nextInt();
+		for(counter = 1; counter < 1; ) {
+		//while(counter > 0) {
+			System.out.print("Enter Score: ");
+			score = input.nextDouble();
+			total = total + score;
+			//counter--;
+			//student++;
+		}
+			average = total / student;
+			return average;
+
+		}
+
+}

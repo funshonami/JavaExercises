@@ -1,0 +1,17 @@
+import java.util.Date;
+
+public class Human {
+	public Date getDateOfBirth() {
+		return dateOfBirth;
+		
+	}
+	Date todaysDate = new Date();
+
+	public void setDateOfBirth(Date dateOfBirth) {
+		dateOfBirth = todaysDate;
+	}
+
+	private Date dateOfBirth;
+	
+	
+}

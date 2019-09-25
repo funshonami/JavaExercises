@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class Game {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int answer;
+		Scanner add = new Scanner(System.in);
+		int result = add.nextInt();
+		int a = (int)(Math.random() * 10);
+		if (a >0) {
+			int answer = a;
+		}
+		int b = (int)(Math.random() * 10);
+		int c = (int)(Math.random() * 10);
+		
+		System.out.printf("What is the sum of %d%d%d? %n", a,b, c);
+		
+		
+		
+	
+		
+		if (answer + b + c == result) {
+			System.out.println("Answer is correct");
+				
+		}
+		
+		if (answer + b + c != result) {
+			System.out.println("Answer is incorrect");
+		}
+	}
+
+}

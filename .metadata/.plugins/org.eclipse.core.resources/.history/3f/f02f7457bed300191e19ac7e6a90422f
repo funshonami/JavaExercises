@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class AccountTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Account funshoAccount = new Account();
+		Account opeAccount = new Account();
+		Scanner bring = new Scanner(System.in); 
+		
+		System.out.println("Enter Money Value: ");
+		double credit = bring.nextDouble();
+		
+		double credit = ((95/100) * credit);
+		
+		
+		
+		System.out.printf( "remainder is:" %f%n, credit);
+		
+	//	String name = bring.nextLine();
+		
+		//funshoAccount.setName(name);
+		
+		//System.out.printf("Account name is: %s ", funshoAccount.getName());
+		
+	}
+
+}

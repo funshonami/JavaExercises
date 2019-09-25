@@ -1,0 +1,36 @@
+// pg 527 (4.18)
+
+import java.util.Scanner;
+
+public class Calculator {
+	private int balance;
+	public Calculator() {
+		
+	}
+	public void runCalculator() {
+
+
+		Scanner bring =new Scanner(System.in);
+		
+		System.out.println("Enter Balance");
+		balance = bring.nextInt();
+		System.out.println("Enter Value for Items Charged");
+		int charges = bring.nextInt();		
+		System.out.println("Enter Value for All Credits Applied");
+		int credits = bring.nextInt();
+		System.out.println("Enter credit Limit");
+		int creditLimit = bring.nextInt();
+		
+		int calculate = (balance + charges - credits);
+		System.out.printf("New Balance is: %d%n", calculate);
+		
+		if(calculate > creditLimit) {
+			System.out.println("Credit limit exceeded");
+		}
+		
+		else if (calculate <creditLimit) {
+			System.out.println("Proceed with payment");
+		}
+		
+	}	
+}

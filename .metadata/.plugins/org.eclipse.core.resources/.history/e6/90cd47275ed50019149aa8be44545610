@@ -1,0 +1,21 @@
+import java.util.Date;
+
+public class Human {
+	private Date dateOfBirth; //CREATION OF ATTRIBUTES
+	public Date getDateOfBirth() {
+		return dateOfBirth;
+		
+	}
+	Date todaysDate = new Date();
+
+	public void setDateOfBirth(Date todaysDate) {
+		dateOfBirth = todaysDate;
+	}
+
+	
+	
+	public Human () { //Constructor. ALWARYS HAS SAME NAME WITH THE CLASS
+	dateOfBirth = todaysDate;
+	
+}
+}

@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class CalculatorTest {
+
+	public static void main(String[] args) {
+		Scanner bring =new Scanner(System.in);
+		
+		System.out.println("Enter Balance");
+		int a = bring.nextInt();
+		System.out.println("Enter Value for Items Charged");
+		int b = bring.nextInt();		
+		System.out.println("Enter Value for All Credits Applied");
+		int c = bring.nextInt();
+		System.out.println("Enter credit Limit");
+		int d = bring.nextInt();
+		Calculator funsho = new Calculator();
+		funsho.runCalculator();
+		
+	}
+
+}

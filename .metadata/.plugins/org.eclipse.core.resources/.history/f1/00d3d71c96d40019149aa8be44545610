@@ -1,0 +1,71 @@
+import java.util.Scanner;
+
+public class Month {
+	public void monthValue() {
+	
+		int a = (int) ((Math.random() * 12));
+		Scanner add = new Scanner(System.in);
+
+		if(a==1) {
+		System.out.println("1 is equivalent to the month of January ");
+		
+		
+	}
+		if(a==2) {
+		System.out.println("2 is equivalent to the month of Febrauary ");
+		
+		
+	}
+		if(a==3) {
+		System.out.println("3 is equivalent to the month of March ");
+		
+		
+	}
+		if(a==4) {
+		System.out.println("4 is equivalent to the month of April ");
+		
+		
+	}
+		if(a==5) {
+		System.out.println("5 is equivalent to the month of May ");
+		
+		
+	}
+		if(a==6) {
+		System.out.println("6 is equivalent to the month of June ");
+		
+		
+	}
+		if(a==7) {
+		System.out.println("7 is equivalent to the month of July ");
+		
+		
+	}
+		if(a==8) {
+		System.out.println("8 is equivalent to the month of August ");
+		
+		
+	}
+		
+		if(a==9) {
+			System.out.println("9 is equivalent to the month of September ");
+			
+			
+		}
+		if(a==10) {
+			System.out.println("10 is equivalent to the month of October ");
+			
+			
+		}
+		if(a==11) {
+			System.out.println("11 is equivalent to the month of November");
+			
+			
+		}
+		if(a==12) {
+			System.out.println("8 is equivalent to the month of December");
+			
+			
+		}
+	}
+}

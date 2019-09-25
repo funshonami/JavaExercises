@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class InvoiceAmount {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner bring = new Scanner(System.in);
+		System.out.println("Enter value for x: ");
+		System.out.println("Enter value for y: ");
+		int x = bring.nextInt();
+		int y = bring.nextInt();
+		Invoice funsho =new Invoice("AB100", "Tool Box",x, y);
+		double invoiceAmount =funsho.getInvoiceAmount();
+		System.out.printf("Invoice is %f",invoiceAmount);
+
+	}
+
+}

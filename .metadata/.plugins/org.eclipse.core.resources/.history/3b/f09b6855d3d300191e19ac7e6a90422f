@@ -1,0 +1,24 @@
+import java.util.Scanner;
+
+public class AccountTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Account funshoAccount = new Account();
+		Account opeAccount = new Account();
+		Scanner bring = new Scanner(System.in); 
+		
+		System.out.println("Enter Money Value: ");
+		double amount = bring.nextDouble();
+	
+		funshoAccount.credit(amount);
+		
+		
+		
+		System.out.printf( "remainder is: %.f%n", funshoAccount.credit(amount));
+		
+
+		
+	}
+
+}

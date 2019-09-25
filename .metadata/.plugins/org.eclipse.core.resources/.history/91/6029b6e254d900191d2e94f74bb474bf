@@ -1,0 +1,50 @@
+
+public class Comparision {
+	private int number;
+	private int number2;
+	private String carBrand;
+	private String colour;
+	private int mileage;
+	
+	public Comparision() {
+
+}
+	public Comparision(int a, int b) {
+		number=a;
+		number2=b;
+	}
+	
+	public void setNumber(int a) {
+		if (a <= 120) {
+			System.out.println("Driving within speed limit");
+		}
+		else {
+			System.out.println("Driver is above speed limit");
+		}
+		
+		number=a;
+		
+	}
+	
+	public int getNumber() {
+		return number;
+	}
+	
+	public void setNumber2(int b) {
+		number2=b;
+	}
+	
+	public int getNumber2() {
+		return number2;
+	}
+	
+	public void drive(int distance) {
+		mileage =  mileage + distance;	
+	
+	}
+
+
+	
+}	
+
+

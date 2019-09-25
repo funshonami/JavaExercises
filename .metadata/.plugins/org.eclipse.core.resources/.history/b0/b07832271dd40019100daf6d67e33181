@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class EquationTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+
+        System.out.print("Input a: ");
+  
+        System.out.print("Input b: ");
+        
+        System.out.print("Input c: ");
+        
+
+        double result = b * b - 4.0 * a * c;
+
+	}
+
+}

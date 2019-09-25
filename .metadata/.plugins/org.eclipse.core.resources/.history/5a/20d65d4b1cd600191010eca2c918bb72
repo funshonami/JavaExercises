@@ -1,0 +1,15 @@
+
+public class EmployeeTest {
+
+	public static void main(String[] args) {
+		Employee number=new Employee("Chris", "Ifogah", 500);
+		Employee number2=new Employee("Toyin", "Olorunfemi", 700);
+		
+		number.setEmployeeRaise(10);
+		number2.setEmployeeRaise(10);
+		
+		System.out.printf("Annual raise: ",a);
+
+	}
+
+}

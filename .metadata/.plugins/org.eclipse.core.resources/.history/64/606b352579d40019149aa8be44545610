@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class Game {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int a = (int)(Math.random() * 100);
+		int b = (int)(Math.random() * 10);
+		int c = (int)(Math.random() * 100);
+		
+		System.out.printf("What is the sum of %d + %d + %d?", a,b, c);
+		
+		Scanner add = new Scanner(System.in);
+		int result = add.nextInt();
+		
+		if (a + b + c == result) {
+			System.out.println("Answer is correct");
+				
+		}
+		
+		if (a + b + c != result) {
+			System.out.println("Answer is incorrect");
+		}
+	}
+
+}

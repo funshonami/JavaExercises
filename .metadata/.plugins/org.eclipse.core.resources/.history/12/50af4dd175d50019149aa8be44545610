@@ -1,0 +1,12 @@
+
+public class InvoiceAmount {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Invoice funsho =new Invoice("AB100", "Tool Box",0, 20000000);
+		double invoiceAmount =funsho.getInvoiceAmount();
+		System.out.printf("Invoice is %f",invoiceAmount);
+
+	}
+
+}

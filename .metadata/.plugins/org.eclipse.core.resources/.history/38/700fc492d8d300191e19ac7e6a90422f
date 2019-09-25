@@ -1,0 +1,64 @@
+
+public class Account {
+	private String name;
+	private String accountType;
+	private double balance;
+	private double bvn;
+	private boolean isActive;
+	private double creditAmount;
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public String getAccountType() {
+		return accountType;
+	}
+
+	public void setAccountType(String accountType) {
+		this.accountType = accountType;
+	}
+
+	public double getBalance() {
+		return balance;
+	}
+
+	public void setBalance(double balance) {
+		this.balance = balance;
+	}
+
+	public double getBvn() {
+		return bvn;
+	}
+
+	public void setBvn(double bvn) {
+		this.bvn = bvn;
+	}
+
+	public boolean isActive() {
+		return isActive;
+	}
+
+	public void setActive(boolean isActive) {
+		this.isActive = isActive;
+	}
+
+	public double credit(double amount) {
+		
+		double deduction = 0.05 * amount;
+		
+		if (deduction > 10000) {
+			creditAmount = amount - deduction;
+			
+		}
+		
+		
+		if (deduction <= 10000) {
+			System.out.println("Insufficient funds");
+		}
+		return creditAmount;
+	}
+}

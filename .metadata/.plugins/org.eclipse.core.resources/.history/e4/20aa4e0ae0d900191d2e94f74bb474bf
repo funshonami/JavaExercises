@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public class Calculator {
+	public void runCalculator() {
+
+
+		Scanner bring =new Scanner(System.in);
+		
+		System.out.println("Enter Value for balance");
+		int a = bring.nextInt();
+		System.out.println("Enter Value for charges");
+		int b = bring.nextInt();		
+		System.out.println("Enter Value for credits");
+		int c = bring.nextInt();
+		
+		int calculate = (a + b - c);
+		System.out.printf("New Balance is: %d%n", calculate);
+		/*if (calculate > 0) {
+			double r1 = (-b + Math.pow(calculate, 0.5)) / (2 *a);
+			double r2 = (-b - Math.pow(calculate, 0.5)) / (2 *a);
+			System.out.printf("The equation has two roots: %f and %f", r1, r2);
+		}
+		
+		if (calculate == 0) {
+			double r1 = -b/(2 *a);
+			double r2 = r1;
+			System.out.printf("The equation has one root: %f", r2);
+		}
+		
+		if (calculate < 0) {
+			System.out.println("INVALID: The Equation has no real roots");
+		
+ 	}
+	}*/
+	
+}

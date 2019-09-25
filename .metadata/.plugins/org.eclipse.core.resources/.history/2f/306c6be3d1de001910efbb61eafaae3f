@@ -1,0 +1,10 @@
+
+public class CompoundInterestTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		CompoundInterest cI = new CompoundInterest(1000, 0.05, 1);
+		cI.compoundInterestCalc();
+	}
+
+}

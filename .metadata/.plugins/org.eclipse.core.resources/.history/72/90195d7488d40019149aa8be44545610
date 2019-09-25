@@ -1,0 +1,13 @@
+
+public class GameTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//VARIABLE DECLARATION CREATE INSTANCE = ASSIGN NEW VARIABLE
+		Game funshoGame = new Game();
+		funshoGame.playGame();
+		
+		
+	}
+
+}

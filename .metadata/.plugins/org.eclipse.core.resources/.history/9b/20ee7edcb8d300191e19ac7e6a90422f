@@ -1,0 +1,22 @@
+import java.util.Scanner;
+
+public class AccountTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Account funshoAccount = new Account();
+		Account opeAccount = new Account();
+		Scanner bring = new Scanner(System.in);
+		
+		funshoAccount.setName(funsho);
+		
+		System.out.println("Enter name: ");
+		String name = bring.nextLine();
+		
+		funshoAccount.setName(name);
+		
+		System.out.printf("Uju account name is: %s ", funshoAccount.getName());
+		
+	}
+
+}

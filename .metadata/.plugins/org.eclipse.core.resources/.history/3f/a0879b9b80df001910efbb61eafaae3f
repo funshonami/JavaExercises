@@ -1,0 +1,91 @@
+import java.util.Scanner;
+
+public class DayWeek {
+	int number;
+	int result;
+	
+	public DayWeek() {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter Number: " );
+		number= input.nextInt();
+		
+		switch(number%7) {
+		case 0:
+			System.out.println("It is Sunday");
+			if (number<7) {
+				System.out.println("This is Week 1");
+			}
+			else {
+				Math.ceil(result= number/7);
+				//result= number/7;
+			System.out.printf("This is Week: %d", result);
+			}
+			break;
+		case 1:
+			System.out.println("It is Monday");
+			if (number<7) {
+				System.out.println("This is Week 1");
+			}
+			else {
+			int result= number/7;
+			System.out.printf("This is Week: %d", result);
+			}
+			break;
+		case 2:
+			System.out.println("It is Tuesday");
+			if (number<7) {
+				System.out.println("This is Week 1");
+			}
+			else {
+			int result= number/7;
+			System.out.printf("This is Week: %d", result);
+			}
+			break;
+		case 3:
+			System.out.println("It is Wednesday");
+			if (number<7) {
+				System.out.println("This is Week 1");
+			}
+			else {
+			int result= number/7;
+			System.out.printf("This is Week: %d", result);
+			}
+			break;
+		case 4:
+			System.out.println("It is Thursday");
+			if (number<7) {
+				System.out.println("This is Week 1");
+			}
+			else {
+			int result= number/7;
+			System.out.printf("This is Week: %d", result);
+			}
+			break;
+		case 5:
+			System.out.println("It is Friday");
+			if (number<7) {
+				System.out.println("This is Week 1");
+			}
+			else {
+			int result= number/7;
+			System.out.printf("This is Week: %d", result);
+			}
+			break;
+		case 6:
+			System.out.println("It is Saturday");
+			if (number<7) {
+				System.out.println("This is Week 1");
+			}
+			else {
+				number = number + (number/7);
+			System.out.printf("This is Week: %d", result);
+			}
+			break;
+		default:
+			System.out.println("Not a valid Day");
+			break;
+			}
+		
+	}
+
+}

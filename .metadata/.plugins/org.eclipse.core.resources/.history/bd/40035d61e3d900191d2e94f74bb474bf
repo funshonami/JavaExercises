@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Calculator {
+	private int balance;
+	private int charges;
+	private int credits;
+	private int creditLimit;
+	
+	public Calculator() {
+		
+	}
+	public void runCalculator() {
+
+
+		
+		int calculate = (balance + charges - credits);
+		System.out.printf("New Balance is: %d%n", calculate);
+		
+		if(calculate > creditLimit) {
+			System.out.println("Credit limit exceeded");
+		}
+		
+		else if (calculate <creditLimit) {
+			System.out.println("Proceed with payment");
+		}
+		
+	}	
+}

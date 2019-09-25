@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class CompoundInterest {
+	
+	private int principal;
+	private double rate;
+	private int numberOfYears;
+	private double amount = 0;
+	
+	public CompoundInterest(int principal, double rate, int numberOfYears) {
+		this.principal = principal;
+		this.rate = rate;
+		this.numberOfYears = numberOfYears;
+	}
+	
+	public double compoundInterestCalc() {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter Principal: ");
+		principal = input.nextInt();
+		System.out.println("Enter Rate: ");
+		rate = input.nextInt();
+		System.out.println("Enter Years: ");
+		numberOfYears = input.nextInt();
+		
+		//for(int i = 0; i > 10; i++, numberOfYears++) {
+			amount = principal * (Math.pow(1 + (rate/100), numberOfYears));
+			//System.out.println(amount);
+			
+		//}
+		return amount;
+	}
+
+}

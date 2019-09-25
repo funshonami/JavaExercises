@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class Even {
+	
+
+		public static void main(String[] args) {
+		Scanner input = new Scanner(System.in);
+		System.out.print("Enter first number: ");
+		int number1 = input.nextInt();
+
+		//Determine if output is EVEN or ODD
+		if(number1 % 2== 1) {
+			System.out.println(number1);
+		  }
+		else if (number1 % 2== 1);
+			for(int a=0; a<=number1; a+=2) {
+				System.out.printf("%d\t", a);
+				
+			}
+		 }
+		}
+	
+
+

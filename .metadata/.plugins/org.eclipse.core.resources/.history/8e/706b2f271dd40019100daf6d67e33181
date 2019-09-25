@@ -1,0 +1,7 @@
+
+public class Equation {
+    double a = input.nextDouble();
+    double b = input.nextDouble();
+    double c = input.nextDouble();
+
+}

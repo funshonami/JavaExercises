@@ -1,0 +1,15 @@
+
+public class EmployeeTest {
+
+	public static void main(String[] args) {
+		Employee number=new Employee("Chris", "Ifogah", (500 * 12));
+		Employee number2=new Employee("Toyin", "Olorunfemi", (700 *12));
+		
+		double a = number.getEmployeeRaise();
+		double b = number2.getEmployeeRaise();
+		
+		System.out.println(a);
+
+	}
+
+}

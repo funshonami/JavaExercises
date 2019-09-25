@@ -1,0 +1,24 @@
+
+public class CompoundInterest {
+	
+	private int principal;
+	private double rate;
+	private int numberOfYears;
+	private double amount = 0;
+	
+	public CompoundInterest(int principal, double rate, int numberOfYears) {
+		this.principal = principal;
+		this.rate = rate;
+		this.numberOfYears = numberOfYears;
+	}
+	
+	public double compoundInterestCalc() {
+		for(int i = 0; i > 10; i++, numberOfYears++) {
+			amount = principal * (Math.pow(1 + rate, numberOfYears));
+			//System.out.println(amount);
+			
+		}
+		return amount;
+	}
+
+}

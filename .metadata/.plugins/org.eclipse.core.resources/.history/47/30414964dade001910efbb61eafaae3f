@@ -1,0 +1,11 @@
+
+public class CompoundInterestTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		CompoundInterest cI = new CompoundInterest();
+		System.out.printf("%.2f %d", cI.compoundInterestCalc());
+	}
+
+}

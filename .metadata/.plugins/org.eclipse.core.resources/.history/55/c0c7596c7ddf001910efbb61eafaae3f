@@ -1,0 +1,41 @@
+import java.util.Scanner;
+
+public class DayWeek {
+	int number;
+	
+	public DayWeek() {
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter Number: " );
+		number= input.nextInt();
+		
+		switch(number%7) {
+		case 0:
+			System.out.println("It is Sunday");
+			int result= number/7;
+			System.out.println(result);
+			break;
+		case 1:
+			System.out.println("It is Monday");
+			break;
+		case 2:
+			System.out.println("It is Tuesday");
+			break;
+		case 3:
+			System.out.println("It is Wednesday");
+			break;
+		case 4:
+			System.out.println("It is Thursday");
+			break;
+		case 5:
+			System.out.println("It is Friday");
+			break;
+		case 6:
+			System.out.println("It is Saturday");
+			break;
+		default:
+			System.out.println("Not a valid Day");
+			break;
+		}
+	}
+
+}

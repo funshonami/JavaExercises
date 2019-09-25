@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class CalculatorTest {
+
+	public static void main(String[] args) {
+		Scanner bring = new Scanner(System.in);
+		System.out.println("Enter Current Balance: ");
+		int balance =bring.nextInt();
+		System.out.println("Enter amount Charged: ");
+		int charges =bring.nextInt();
+		System.out.println("Enter sum of all credit: ");
+		int creditApplied =bring.nextInt();
+		
+	}
+
+}
